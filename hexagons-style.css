@@ -15,7 +15,7 @@ body {
             0deg,
             rgba(16, 16, 16, 0.75),
             rgba(16, 16, 16, 0.75)),
-        url('/hexagon/background.jpg') 50% 67% / cover repeat;
+        url('/hexagons/background.jpg') 50% 67% / cover repeat;
 }
 
 .container {
