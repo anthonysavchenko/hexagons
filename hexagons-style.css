@@ -56,6 +56,10 @@ body {
     z-index: 3;
 }
 
+.title.smallFont {
+    font-size: 22px;
+}
+
 .anchorFill, .anchorOutline, .emptyFill, .emptyOutline, .invisibleOutline {
     position: absolute;
     top: -50%;
@@ -169,6 +173,10 @@ body {
     
     .title {
         font-size: 17.4px;
+    }
+
+    .title.smallFont {
+        font-size: 14.4px;
     }
 
     .extraTiny {
