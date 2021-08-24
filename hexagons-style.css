@@ -18,8 +18,16 @@ body {
         url('/hexagons/background.jpg') 50% 67% / cover repeat;
 }
 
+.container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
 .container {
-    margin: 0 auto;
+    margin: 0 auto !important;
+    padding: 0 !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,7 +52,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: white !important;
     font-family: 'Roboto Condensed', sans-serif, -apple-system;
     font-size: 26px;
     line-height: 1.3;
